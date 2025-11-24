@@ -46,3 +46,9 @@ OPENAI_API_KEY=your_openai_api_key_here
 - prompts/description_generate_prompt.txt 파일에 있는 프롬프트 수정
 - 자유롭게 few-shot 같은것 추가
 - 단, '상품명: {name}'과 '카테고리: {category}'는 건들지 말기
+
+### 4. description 생성
+```bash
+python generate_description.py
+``` 
+(참고: generate_description.py 코드에서 START 변수는 csv 파일에서 생성을 시작할 인덱스의 위치, END는 START부터 몇 개를 할지이니 자신 파트에 맞게 조정)
