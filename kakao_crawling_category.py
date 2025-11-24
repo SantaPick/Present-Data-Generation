@@ -18,7 +18,7 @@ from selenium.common.exceptions import UnexpectedAlertPresentException, NoAlertP
 
 CATEGORY_BASE_URL = "https://gift.kakao.com/home?targetType=ALL&rankType=MANY_WISH&priceRange=20000_29999"
 MAX_LIST_PAGES = 1         
-MAX_PRODUCTS_PER_CATEGORY = 1  
+MAX_PRODUCTS_PER_CATEGORY = 100  
 
 OUT_DIR = "dataset"
 IMG_DIR = os.path.join(OUT_DIR, "images")
