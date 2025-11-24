@@ -8,6 +8,7 @@
 │   └── products.csv             # 최종 데이터셋
 ├── kakao_crawling.py            # 카카오톡 선물하기 크롤링 코드 (해당 URL 페이지에서 상위 n개, n'개의 페이지 탐색)
 ├── kakao_crawling_category.py   # 카카오톡 선물하기 카테코리 항목별 n개 크롤링
+├── product_visualizer_web.py    # 상품 데이터 streamlit 이용 웹 시각화
 └── requirements.txt             # 파이썬 설치 패키지
 ```
 
